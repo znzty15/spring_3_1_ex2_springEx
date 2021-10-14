@@ -19,11 +19,12 @@ public class main {
 		
 		String congifLocation = "classpath:applicationCTX.xml";
 		AbstractApplicationContext ctx = new GenericXmlApplicationContext(congifLocation);
-		ctx.getBean("myCal", MyCalculator.class);
-		myCal.
-		myCal.subtraction();
-		myCal.division();		
+		MyCalculator myCal = ctx.getBean("myCal", MyCalculator.class);
 		
+		myCal.addition();
+		myCal.subtraction();
+		myCal.multiplication();
+		myCal.division();
 	}
 
 }
