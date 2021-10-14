@@ -25,6 +25,8 @@ public class main {
 		myCal.subtraction();
 		myCal.multiplication();
 		myCal.division();
+		
+		ctx.close();
 	}
 
 }
