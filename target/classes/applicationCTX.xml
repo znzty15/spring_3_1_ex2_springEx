@@ -10,6 +10,6 @@
 			<ref bean="cal"></ref>
 		</property>
 		<property name="num1" value="10"></property>
-		<property name="num2" value="5"></property>
+		<property name="num2" value="2"></property>
 	</bean>
 </beans>
